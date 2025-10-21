@@ -58,29 +58,28 @@
 <body class="font-inter bg-slate-50 text-slate-800 antialiased">
 
     <!-- Header / Navbar -->
-    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <header class="bg-white/90 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="/" class="flex items-center gap-3">
-                <!-- Logo -->
-                <div
-                    class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-md">
-                    S
-                </div>
-                <div>
-                    <h1 class="text-xl font-bold text-primary-700">SIPETIR</h1>
-                    <p class="text-xs text-slate-500 -mt-1">Kec. Batuputih</p>
-                </div>
+                <!-- LOGO ANDA -->
+                <img src="{{ asset('img/logo.jpg') }}" alt="Logo SIPETIR" class="h-10">
             </a>
-            <nav class="hidden md:flex items-center gap-6">
-                <a href="/#layanan" class="text-slate-600 hover:text-primary-600 transition duration-300">Layanan</a>
-                <a href="/#tentang" class="text-slate-600 hover:text-primary-600 transition duration-300">Tentang</a>
-                <a href="/layanan-bumdes" class="text-slate-600 hover:text-primary-600 transition duration-300">Info
-                    BUMDes</a>
+            <nav class="hidden md:flex items-center gap-x-6">
+                <a href="/#layanan"
+                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Layanan</a>
+                <a href="/#tentang"
+                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Tentang</a>
+                <a href="/#berita"
+                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Berita</a>
+                <a href="/#kontak"
+                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Kontak</a>
             </nav>
-            <a href="/login"
-                class="bg-primary-600 text-white px-5 py-2.5 rounded-lg shadow-sm hover:bg-primary-700 transition duration-300 text-sm font-semibold">
-                Masuk
-            </a>
+            <div class="flex items-center gap-2">
+                <a href="/login"
+                    class="bg-blue-600 text-white px-5 py-2.5 rounded-lg shadow-sm hover:bg-blue-700 transition duration-300 text-sm font-semibold">
+                    Masuk
+                </a>
+            </div>
         </div>
     </header>
 

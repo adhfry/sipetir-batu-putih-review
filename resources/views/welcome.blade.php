@@ -20,7 +20,7 @@
                 administrasi Anda.
             </p>
             <a href="#layanan"
-                class="bg-primary-600 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-300 transform hover:scale-105 text-lg font-semibold">
+                class="bg-blue-600 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 text-lg font-semibold">
                 Jelajahi Layanan Kami
             </a>
         </div>
@@ -172,6 +172,72 @@
                     </div>
                     <h4 class="font-bold text-lg mt-4">Akuntabel</h4>
                     <p class="text-sm text-slate-500 mt-1">Setiap proses tercatat secara digital.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Berita Section -->
+<section id="berita" class="py-20 bg-slate-50">
+    <div class="container mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Berita & Informasi Terkini</h2>
+            <p class="mt-4 text-slate-600">Ikuti perkembangan terbaru dari kegiatan dan inovasi di lingkungan Kecamatan
+                Batuputih.</p>
+        </div>
+        <div class="grid lg:grid-cols-3 gap-8">
+            <!-- DUMMY BERITA 1 -->
+            <div
+                class="bg-white rounded-xl overflow-hidden flex flex-col group shadow-md hover:shadow-xl transition-shadow duration-300">
+                <div class="aspect-video bg-slate-200 flex items-center justify-center text-slate-400">
+                    <p></p>
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-sm font-semibold text-blue-600">21 Oktober 2025</span>
+                    <h3 class="mt-2 text-xl font-bold text-slate-800 group-hover:text-blue-700 transition duration-300">
+                        Kecamatan Batuputih Resmi Luncurkan Aplikasi SIPETIR
+                    </h3>
+                    <p class="mt-3 text-slate-500 text-sm flex-grow">
+                        Langkah maju dalam digitalisasi layanan publik, SIPETIR diharapkan mampu meningkatkan
+                        efisiensi...
+                    </p>
+                    <a href="#" class="mt-4 font-semibold text-blue-600 self-start">Baca Selengkapnya &rarr;</a>
+                </div>
+            </div>
+            <!-- DUMMY BERITA 2 -->
+            <div
+                class="bg-white rounded-xl overflow-hidden flex flex-col group shadow-md hover:shadow-xl transition-shadow duration-300">
+                <div class="aspect-video bg-slate-200 flex items-center justify-center text-slate-400">
+                    <p></p>
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-sm font-semibold text-blue-600">15 Oktober 2025</span>
+                    <h3 class="mt-2 text-xl font-bold text-slate-800 group-hover:text-blue-700 transition duration-300">
+                        Aparat Desa se-Kecamatan Batuputih Ikuti Pelatihan Digital
+                    </h3>
+                    <p class="mt-3 text-slate-500 text-sm flex-grow">
+                        Dalam rangka persiapan implementasi SIPETIR, seluruh aparat desa diberikan pelatihan intensif...
+                    </p>
+                    <a href="#" class="mt-4 font-semibold text-blue-600 self-start">Baca Selengkapnya &rarr;</a>
+                </div>
+            </div>
+            <!-- DUMMY BERITA 3 -->
+            <div
+                class="bg-white rounded-xl overflow-hidden flex flex-col group shadow-md hover:shadow-xl transition-shadow duration-300">
+                <div class="aspect-video bg-slate-200 flex items-center justify-center text-slate-400">
+                    <p></p>
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-sm font-semibold text-blue-600">10 Oktober 2025</span>
+                    <h3 class="mt-2 text-xl font-bold text-slate-800 group-hover:text-blue-700 transition duration-300">
+                        BUMDes Desa Maju Jaya Raih Penghargaan Tingkat Kabupaten
+                    </h3>
+                    <p class="mt-3 text-slate-500 text-sm flex-grow">
+                        Berkat inovasi produk dan manajemen yang baik, BUMDes Maju Jaya menjadi contoh sukses...
+                    </p>
+                    <a href="#" class="mt-4 font-semibold text-blue-600 self-start">Baca Selengkapnya &rarr;</a>
                 </div>
             </div>
         </div>

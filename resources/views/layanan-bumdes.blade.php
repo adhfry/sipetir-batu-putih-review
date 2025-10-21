@@ -189,6 +189,148 @@
     </div>
 </section>
 
+<!-- Produk Unggulan Section (BARU) -->
+section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Galeri Produk Unggulan BUMDes</h2>
+        <p class="mt-4 text-slate-600">
+            Temukan berbagai produk berkualitas hasil karya BUMDes se-Kecamatan Batuputih yang siap bersaing di pasar.
+        </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- DUMMY PRODUK 1 -->
+        <div onclick="openModal('Keripik Pisang Renyah', 'BUMDes Teratai - Desa Juruan Daya', 'Dibuat dari pisang kepok pilihan yang dipanen saat tingkat kematangannya pas. Diiris tipis dan digoreng dengan minyak kelapa berkualitas, menghasilkan keripik yang renyah dan gurih alami tanpa bahan pengawet. Cocok untuk camilan sehat seluruh keluarga, tersedia dalam varian rasa original dan balado.', 'Rp 15.000 / pack', '[Gambar Keripik Pisang]')"
+            class="bg-white rounded-xl overflow-hidden shadow-lg group transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border cursor-pointer">
+            <div class="aspect-video bg-slate-200 flex items-center justify-center">
+                <p class="text-slate-400">[Gambar Keripik Pisang]</p>
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-slate-800">Keripik Pisang Renyah</h3>
+                <p class="text-sm font-semibold text-primary-600 mt-1">BUMDes Teratai - Desa Juruan Daya</p>
+                <p class="mt-3 text-slate-500 text-sm h-20 overflow-hidden">
+                    Dibuat dari pisang pilihan dengan resep turun-temurun, menghasilkan keripik yang gurih dan renyah
+                    sempurna untuk camilan.
+                </p>
+                <div class="mt-4 font-bold text-lg text-slate-900">
+                    Rp 15.000 / pack
+                </div>
+            </div>
+        </div>
+        <!-- DUMMY PRODUK 2 -->
+        <div onclick="openModal('Stick Bawang Gurih', 'BUMDes Yupiter - Desa Juruan Laok', 'Camilan stik renyah dengan aroma bawang asli yang khas. Dibuat tanpa MSG, menggunakan bahan-bahan alami pilihan yang menjamin kualitas rasa. Sangat cocok sebagai teman minum teh atau kopi, atau sebagai pendamping makanan berkuah seperti bakso dan soto.', 'Rp 2.500 / bungkus', '[Gambar Stick Bawang]')"
+            class="bg-white rounded-xl overflow-hidden shadow-lg group transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border cursor-pointer">
+            <div class="aspect-video bg-slate-200 flex items-center justify-center">
+                <p class="text-slate-400">[Gambar Stick Bawang]</p>
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-slate-800">Stick Bawang Gurih</h3>
+                <p class="text-sm font-semibold text-primary-600 mt-1">BUMDes Yupiter - Desa Juruan Laok</p>
+                <p class="mt-3 text-slate-500 text-sm h-20 overflow-hidden">
+                    Camilan stik renyah dengan aroma bawang asli yang khas, cocok sebagai teman minum teh atau kopi.
+                </p>
+                <div class="mt-4 font-bold text-lg text-slate-900">
+                    Rp 2.500 / bungkus
+                </div>
+            </div>
+        </div>
+        <!-- DUMMY PRODUK 3 -->
+        <div onclick="openModal('Ikan Asin Kualitas Super', 'BUMDes Pesisir Jaya - Desa Batuputih Daya', 'Ikan asin ini diolah secara tradisional dari ikan segar pilihan hasil tangkapan nelayan lokal pada hari yang sama. Proses pengeringan alami di bawah sinar matahari dan penggunaan garam berkualitas tinggi menjamin produk ini bersih, tidak terlalu asin, dan bebas dari bahan kimia.', 'Rp 40.000 / kg', '[Gambar Ikan Asin]')"
+            class="bg-white rounded-xl overflow-hidden shadow-lg group transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border cursor-pointer">
+            <div class="aspect-video bg-slate-200 flex items-center justify-center">
+                <p class="text-slate-400">[Gambar Ikan Asin]</p>
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-slate-800">Ikan Asin Kualitas Super</h3>
+                <p class="text-sm font-semibold text-primary-600 mt-1">BUMDes Pesisir Jaya - Desa Batuputih Daya</p>
+                <p class="mt-3 text-slate-500 text-sm h-20 overflow-hidden">
+                    Diolah secara tradisional dari ikan segar pilihan hasil tangkapan nelayan lokal, dijamin bersih dan
+                    berkualitas.
+                </p>
+                <div class="mt-4 font-bold text-lg text-slate-900">
+                    Rp 40.000 / kg
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Modal Structure -->
+<div id="productModal"
+    class="hidden fixed inset-0 bg-black bg-opacity-60 z-50 flex justify-center items-center p-4 transition-opacity duration-300">
+    <div id="modalContent"
+        class="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto transform scale-95 transition-transform duration-300">
+        <!-- Modal Header -->
+        <div class="flex justify-between items-center p-5 border-b sticky top-0 bg-white z-10">
+            <h3 id="modalTitle" class="text-2xl font-bold text-slate-900"></h3>
+            <button onclick="closeModal()" class="text-slate-400 hover:text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <!-- Modal Body -->
+        <div class="p-6">
+            <div class="aspect-video bg-slate-200 rounded-lg flex items-center justify-center mb-6">
+                <p id="modalImagePlaceholder" class="text-slate-500"></p>
+            </div>
+            <p id="modalSeller" class="font-semibold text-primary-600 mb-4"></p>
+            <p id="modalDescription" class="text-slate-600 leading-relaxed mb-6"></p>
+            <div class="bg-slate-100 p-4 rounded-lg flex justify-between items-center">
+                <span class="text-slate-600 font-medium">Harga:</span>
+                <span id="modalPrice" class="font-extrabold text-2xl text-slate-900"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const modal = document.getElementById('productModal');
+    const modalContent = document.getElementById('modalContent');
+
+    function openModal(title, seller, description, price, imageText) {
+        document.getElementById('modalTitle').innerText = title;
+        document.getElementById('modalSeller').innerText = seller;
+        document.getElementById('modalDescription').innerText = description;
+        document.getElementById('modalPrice').innerText = price;
+        document.getElementById('modalImagePlaceholder').innerText = imageText;
+
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        // Trigger transition
+        setTimeout(() => {
+            modal.classList.add('opacity-100');
+            modalContent.classList.remove('scale-95');
+        }, 10);
+    }
+
+    function closeModal() {
+        modal.classList.remove('opacity-100');
+        modalContent.classList.add('scale-95');
+        document.body.style.overflow = 'auto';
+        // Wait for transition to end before hiding
+        setTimeout(() => {
+            modal.classList.add('hidden');
+        }, 300);
+    }
+
+    // Close modal on escape key press
+    window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+            closeModal();
+        }
+    });
+
+    // Close modal on backdrop click
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+</script>
+
 <!-- Blog Section -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
