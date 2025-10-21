@@ -7,7 +7,16 @@
     <div
         class="max-w-md w-full bg-white/80 backdrop-blur-md p-8 md:p-10 rounded-2xl shadow-2xl space-y-8 border border-slate-200">
         <div>
-            <img src="{{ asset('img/logo.jpg') }}" alt="Logo SIPETIR" class="h-12 mx-auto mb-6">
+            <div class="inline-flex items-center justify-center space-x-4 mb-6">
+                <div
+                    class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-white font-bold text-4xl shadow-lg">
+                    S
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-left">
+                    SIPETIR
+                    <span class="block text-lg font-normal text-primary-100 -mt-1">Pelayanan Terpadu Batuputih</span>
+                </h1>
+            </div>
             <h2 class="text-center text-3xl font-extrabold text-gray-900">
                 Masuk ke Akun Anda
             </h2>

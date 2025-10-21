@@ -62,21 +62,31 @@
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="/" class="flex items-center gap-3">
                 <!-- LOGO ANDA -->
-                <img src="{{ asset('img/logo.jpg') }}" alt="Logo SIPETIR" class="h-10">
+                <div class="inline-flex items-center justify-center space-x-4 mb-6">
+                    <div
+                        class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-white font-bold text-4xl shadow-lg">
+                        S
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-left">
+                        SIPETIR
+                        <span class="block text-lg font-normal text-primary-100 -mt-1">Pelayanan Terpadu
+                            Batuputih</span>
+                    </h1>
+                </div>
             </a>
             <nav class="hidden md:flex items-center gap-x-6">
                 <a href="/#layanan"
-                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Layanan</a>
+                    class="text-slate-600 hover:text-green-600 transition duration-300 font-medium">Layanan</a>
                 <a href="/#tentang"
-                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Tentang</a>
+                    class="text-slate-600 hover:text-green-600 transition duration-300 font-medium">Tentang</a>
                 <a href="/#berita"
-                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Berita</a>
+                    class="text-slate-600 hover:text-green-600 transition duration-300 font-medium">Berita</a>
                 <a href="/#kontak"
-                    class="text-slate-600 hover:text-blue-600 transition duration-300 font-medium">Kontak</a>
+                    class="text-slate-600 hover:text-green-600 transition duration-300 font-medium">Kontak</a>
             </nav>
             <div class="flex items-center gap-2">
                 <a href="/login"
-                    class="bg-blue-600 text-white px-5 py-2.5 rounded-lg shadow-sm hover:bg-blue-700 transition duration-300 text-sm font-semibold">
+                    class="bg-green-600 text-white px-5 py-2.5 rounded-lg shadow-sm hover:bg-green-700 transition duration-300 text-sm font-semibold">
                     Masuk
                 </a>
             </div>

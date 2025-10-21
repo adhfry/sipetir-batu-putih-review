@@ -20,7 +20,7 @@
                 administrasi Anda.
             </p>
             <a href="#layanan"
-                class="bg-blue-600 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 text-lg font-semibold">
+                class="bg-primary-600 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-300 transform hover:scale-105 text-lg font-semibold">
                 Jelajahi Layanan Kami
             </a>
         </div>
