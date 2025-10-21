@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Layanan Publik - SIPETIR')
+@section('title', 'Layanan Desa - SIPETIR')
 
 @section('content')
 
@@ -8,7 +8,7 @@
 <section class="bg-blue-600 text-white pt-16 pb-20 relative overflow-hidden">
     <div class="absolute top-0 left-0 w-full h-full bg-black/10"></div>
     <div class="container mx-auto px-6 text-center relative z-10">
-        <h1 class="text-4xl md:text-5xl font-extrabold">Layanan Publik</h1>
+        <h1 class="text-4xl md:text-5xl font-extrabold">Layanan Desa</h1>
         <p class="mt-4 text-lg max-w-3xl mx-auto text-blue-100">
             Kemudahan pengurusan surat keterangan, rekomendasi, dan administrasi umum lainnya untuk seluruh masyarakat
             Kecamatan Batuputih.
@@ -22,7 +22,7 @@
         <div class="text-center max-w-2xl mx-auto mb-12">
             <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Jenis Surat yang Dilayani</h2>
             <p class="mt-4 text-slate-600">
-                Berikut adalah beberapa jenis layanan administrasi publik yang dapat diajukan melalui SIPETIR.
+                Berikut adalah beberapa jenis layanan administrasi desa yang dapat diajukan melalui SIPETIR.
             </p>
         </div>
         <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
