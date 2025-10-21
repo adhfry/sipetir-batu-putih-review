@@ -64,10 +64,10 @@
                 <!-- LOGO ANDA -->
                 <div class="inline-flex items-center justify-center space-x-4 mb-6">
                     <div
-                        class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-white font-bold text-4xl shadow-lg">
+                        class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-green-600 font-bold text-4xl shadow-lg">
                         S
                     </div>
-                    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-left">
+                    <h1 class=" md:text-lg font-extrabold leading-tight text-left">
                         SIPETIR
                         <span class="block text-lg font-normal text-primary-100 -mt-1">Pelayanan Terpadu
                             Batuputih</span>
