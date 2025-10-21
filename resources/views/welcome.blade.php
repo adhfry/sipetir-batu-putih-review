@@ -58,7 +58,7 @@
                 <h3 class="text-2xl font-bold mb-3 text-slate-900">Layanan Publik</h3>
                 <p class="text-slate-600 mb-6">Urus surat rekomendasi, keterangan, hingga konsultasi administrasi
                     pemerintahan desa dengan cepat, akuntabel, dan terdokumentasi.</p>
-                <a href="#"
+                <a href="/layanan-publik"
                     class="font-semibold text-primary-600 hover:text-primary-800 transition duration-300">Selengkapnya
                     &rarr;</a>
             </div>
@@ -76,7 +76,7 @@
                 <h3 class="text-2xl font-bold mb-3 text-slate-900">Layanan Dukcapil</h3>
                 <p class="text-slate-600 mb-6">Koordinasi data kependudukan, legalisasi dokumen, perekaman identitas,
                     dan pembaruan data dasar warga menjadi lebih mudah.</p>
-                <a href="#"
+                <a href="/layanan-dukcapil"
                     class="font-semibold text-primary-600 hover:text-primary-800 transition duration-300">Selengkapnya
                     &rarr;</a>
             </div>
